@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rs-music" />
+        <module name="rs-dao" />
+        <module name="rs-common" />
+        <module name="rs-auxiliary" />
+        <module name="rs-web" />
+        <module name="rs-core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rs-auxiliary" options="-parameters" />
+      <module name="rs-common" options="" />
+      <module name="rs-core" options="-parameters" />
+      <module name="rs-dao" options="-parameters" />
+      <module name="rs-web" options="-parameters" />
+    </option>
+  </component>
+</project>
