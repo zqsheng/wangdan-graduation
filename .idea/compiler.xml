@@ -7,16 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rs-music" />
-        <module name="rs-dao" />
         <module name="rs-common" />
+        <module name="rs-dao" />
         <module name="rs-auxiliary" />
         <module name="rs-web" />
+        <module name="recommend-core" />
         <module name="rs-core" />
+        <module name="graduation-project" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="recommend-core" options="-parameters" />
       <module name="rs-auxiliary" options="-parameters" />
       <module name="rs-common" options="" />
       <module name="rs-core" options="-parameters" />
